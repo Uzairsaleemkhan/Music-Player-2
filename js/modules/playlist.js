@@ -16,7 +16,7 @@ const Playlist = (_ => {
     listeners();
     PlayInfo.setState({
       songsLength: songs.length,
-      isPlaying: !currentSong.paused
+      isPlaying: !currentSong.p
     })
   }
 
