@@ -65,7 +65,16 @@ body {
 @media only screen and (max-width: 768px) {
   .player {
     display: block;
+    height: max-content;
+    
   }
+  .app{
+
+  }
+  .container{
+
+  }
+
 }
 .player__header {
   flex: 1;
